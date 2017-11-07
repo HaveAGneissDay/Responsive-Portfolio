@@ -90,6 +90,23 @@ form {
 	padding: 40px;
 }
 
+@media screen and (max-width: 960px) {
+	body {
+
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+
+	}
+}
+
+@media screen and (max-width: 640px) {
+	body {
+
+	}
+}
 
 p.contents {
 	text-align: flow;
