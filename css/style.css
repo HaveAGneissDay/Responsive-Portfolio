@@ -29,12 +29,10 @@ body {
 }
 
 aside {
- float: right;
+ float: left;
  background-color: #ffffff;
- padding: 10px;
- margin: 10px;
+ margin-left: 20px;
  width: 270px;
- position: relative;
  top : 70px;
  right: -470px;
 }
@@ -64,9 +62,7 @@ article {
 	width: 650px;
 	height: 500px;
 	float: left;
-	margin-top: 10px;
 	margin-left: 20px;
-	position: fixed;
 	top: 70px;
 	border-color: #dddddd;
 }
@@ -75,6 +71,12 @@ article {
 	padding:20px;
 	font-size: 20px;
 	text-decoration-color: #cccccc;
+}
+
+.content {
+ padding-top: 75px;
+ clear:both;
+ margin-top:10px;
 }
 
 .icon {
@@ -95,9 +97,9 @@ form {
         width: 100%;
 	}
 
-	.connect {
+	aside {
        width: 100%;
-       margin-top: 200px;
+       
 	}
 
 	.wrapper {
@@ -112,14 +114,24 @@ form {
         width: 100%;
 	}
 
-	.connect {
-       width: 100%;
-       margin-top: 200px;
+	article {
+		float:left;
+		width:100%;
 	}
 
 	.wrapper {
 		width:100%;
 		padding:20px;
+	}
+	aside {
+		margin-top: 20px;
+		margin-left: 20px;
+		width:100%;
+
+	}
+
+	.content {
+		width: 650px;
 	}
 }
 
@@ -128,15 +140,23 @@ form {
         width: 100%;
 	}
 
-	.connect {
-       width: 100%;
-       margin-top: 200px;
+	article {
+		float:left;
 	}
 
 	.wrapper {
 		width:100%;
 		padding:20px;
 	}
+aside {
+		margin-top: 20px;
+		margin-left: 20px;
+		width:100%;
+	}
+	.content {
+		width: 650px;
+	}
+
 }
 
 p.contents {
